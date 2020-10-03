@@ -1,0 +1,210 @@
+body {
+  font-family: "Montserrat";
+}
+
+#title {
+  background-color: #99f3bd;
+}
+
+.container-fluid {
+  padding: 3% 15%
+}
+
+
+/* Navigation Bar */
+.company {
+  font-size: 30px;
+  margin-left: 10px;
+  font-family: "Ubuntu";
+  font-weight: bolder;
+}
+
+.nav-link {
+  font-size: 20px;
+}
+
+/* title */
+.container-fluid{
+  padding: 7% 15% 620px;
+}
+
+
+h1 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #0779e4;
+}
+
+
+h2{
+  padding-bottom: 10px;
+}
+
+h3{
+font-family: Montserrat;
+}
+
+.button-download {
+  margin: 5% 3% 5% 0;
+}
+/* Image Features */
+.coding {
+  width: 600px;
+  position:absolute;
+  margin: auto;
+}
+
+
+
+
+/* Features Section */
+
+#features{
+padding: 7% 13%;
+background-color: white;
+
+position: relative;
+}
+.all-features{
+  text-align: center;
+  padding: 5%;
+}
+.p{
+  color: #8f8f8f;
+}
+
+.icon{
+  color: #0779e4;
+  margin-bottom: 3rem;
+}
+
+.icon:hover{
+  color: #99f3bd;
+}
+
+.bullseye{
+  padding-top: 2px;
+}
+
+/* Testimonials */
+
+#testimonials{
+  text-align: center;
+  background-color: #99f3bd;
+  color:#0779e4;
+
+}
+.comp{
+  width: 500px;
+  height: 500px;
+}
+.carousel-item{
+    padding:7% 15%;
+}
+.sid{
+  color:grey;
+  font-family: Montserrat;
+}
+.testimonial{
+font-size:40px;
+line-height:1.5;
+}
+
+
+#press{
+    background-color: #99f3bd;
+    padding-bottom:3rem;
+    text-align: center;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.girl{
+  width: 500px;
+  height: 500px;
+  padding-top: 80px;
+}
+
+/* Pricing */
+#pricing{
+  padding: 4% 10% 10%;
+  text-align: center;
+
+}
+.heading{
+  padding-bottom: 80px;
+  color: #0779e4;
+  font-weight: bolder;
+  font-size: 40px;
+  text-align: center;
+}
+
+
+
+.bd   {
+  padding-top: 55px;
+}
+.cost{
+  font-size: 40px;
+  padding-bottom: 40px;
+    padding-top:20px;
+}
+
+
+
+
+/* cta */
+#cta{
+  background-color: #99f3bd;
+padding: 60px 30px 40px;
+text-align: center;
+font-family: Montserrat;
+}
+
+.last{
+  padding-bottom: 5px;
+  color: #0779e4;;
+  font-weight: bolder;
+  font-size: 3rem;
+}
+
+#footer{
+background-color:#fff;
+padding: 60px 60px 60px;
+text-align: center;
+}
+
+.social-icon{
+  margin: 20px 15px;
+}
+
+
+/* Media */
+@media (max-width : 1028px){
+
+
+
+ .girl{
+   width: 350px;
+   height: 350px;
+ }
+
+ .testimonial{
+   font-size: 25px;
+ }
+ .comp{
+   width: 350px;
+   height: 350px;
+ }
+ .Plan{
+   font-size: 35px;
+ }
+
+ .footer{
+   padding-bottom:40px;
+ }
+}
